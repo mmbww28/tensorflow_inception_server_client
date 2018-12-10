@@ -1,3 +1,4 @@
+import sys
 sys.path.insert(0, './so')
 import inception_server
 
