@@ -1,0 +1,6 @@
+image
+redis
+nvgpu
+opencv-python
+tensorflow-gpu
+
