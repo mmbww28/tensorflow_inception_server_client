@@ -1,3 +1,4 @@
+sys.path.insert(0, './so')
 from inception_client import InceptionClient
 
 ic=InceptionClient('http://127.0.0.1:2222')
