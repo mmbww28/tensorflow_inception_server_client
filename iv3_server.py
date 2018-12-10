@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0, './so')
-import inception_server
+import zs
 
-inception_server.start(2222)
+zs.start(2223)
 
