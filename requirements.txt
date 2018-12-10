@@ -1,9 +1,5 @@
-zerorpc
-sanic
 image
 pillow-simd
-redis
-nvgpu
 opencv-python
 tensorflow-gpu
 pybase64
