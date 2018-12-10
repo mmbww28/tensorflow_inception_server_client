@@ -15,7 +15,8 @@ pip install -r requirements.txt
 Start server
 
 ```
-python iv3_server.py
+python iv3_server.py [num_processes]
+e.g. <python iv3_server.py 3> for running three processes simultaneously
 ```
 
 Start client

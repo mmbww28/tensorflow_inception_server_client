@@ -1,0 +1,121 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0826 09:06:59.568639 140539392485184 deprecation_wrapper.py:119] From iv3_server.py:1: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0826 09:06:59.568892 140539392485184 deprecation_wrapper.py:119] From iv3_server.py:1: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0826 09:06:59.568985 140539392485184 deprecation_wrapper.py:119] From iv3_server.py:1: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0826 09:06:59.581381 140539392485184 deprecation.py:323] From iv3_server.py:1: __init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+W0826 09:06:59.581515 140539392485184 deprecation_wrapper.py:119] From iv3_server.py:1: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+2019-08-26 09:06:59.907224: W tensorflow/core/framework/op_def_util.cc:357] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+127.0.0.1 - - [26/Aug/2019 09:07:10] "POST / HTTP/1.1" 200 -
+W0826 09:07:10.171222 140538942387968 deprecation_wrapper.py:119] From /usr/lib/python2.7/threading.py:754: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-08-26 09:07:10.172460: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-08-26 09:07:10.184383: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-08-26 09:07:10.625723: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fd1601e77a0 executing computations on platform CUDA. Devices:
+2019-08-26 09:07:10.625776: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080, Compute Capability 6.1
+2019-08-26 09:07:10.625795: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080, Compute Capability 6.1
+2019-08-26 09:07:10.625810: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080, Compute Capability 6.1
+2019-08-26 09:07:10.648350: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2398640000 Hz
+2019-08-26 09:07:10.649714: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fd1602cae00 executing computations on platform Host. Devices:
+2019-08-26 09:07:10.649770: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-08-26 09:07:10.656913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:05:00.0
+2019-08-26 09:07:10.657866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:06:00.0
+2019-08-26 09:07:10.658795: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 2 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:09:00.0
+2019-08-26 09:07:10.658965: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.659071: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.659171: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.659284: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.659383: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.659480: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:07:10.663226: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-26 09:07:10.663256: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2019-08-26 09:07:10.663372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-26 09:07:10.663389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 2 
+2019-08-26 09:07:10.663399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y Y 
+2019-08-26 09:07:10.663408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N Y 
+2019-08-26 09:07:10.663416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 2:   Y Y N 
+W0826 09:07:10.664896 140538942387968 deprecation_wrapper.py:119] From /usr/lib/python2.7/threading.py:754: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0826 09:07:10.674771 140538942387968 deprecation_wrapper.py:119] From /usr/lib/python2.7/threading.py:754: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+2019-08-26 09:07:10.718756: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+127.0.0.1 - - [26/Aug/2019 09:08:59] "POST / HTTP/1.1" 200 -
+2019-08-26 09:08:59.984449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:05:00.0
+2019-08-26 09:08:59.986257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:06:00.0
+2019-08-26 09:08:59.988052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 2 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:09:00.0
+2019-08-26 09:08:59.988296: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.988458: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.988624: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.988771: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.988915: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.989058: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:08:59.989093: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-26 09:08:59.989112: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2019-08-26 09:08:59.989319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-26 09:08:59.989342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 2 
+2019-08-26 09:08:59.989358: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y Y 
+2019-08-26 09:08:59.989377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N Y 
+2019-08-26 09:08:59.989399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 2:   Y Y N 
+127.0.0.1 - - [26/Aug/2019 09:09:22] "POST / HTTP/1.1" 200 -
+2019-08-26 09:09:22.904685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:05:00.0
+2019-08-26 09:09:22.906510: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:06:00.0
+2019-08-26 09:09:22.908287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 2 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:09:00.0
+2019-08-26 09:09:22.908532: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.908697: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.908850: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.908999: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.909167: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.909314: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:22.909351: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-26 09:09:22.909370: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2019-08-26 09:09:22.909581: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-26 09:09:22.909605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 2 
+2019-08-26 09:09:22.909622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y Y 
+2019-08-26 09:09:22.909636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N Y 
+2019-08-26 09:09:22.909649: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 2:   Y Y N 
+127.0.0.1 - - [26/Aug/2019 09:09:44] "POST / HTTP/1.1" 200 -
+2019-08-26 09:09:44.934503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:05:00.0
+2019-08-26 09:09:44.935953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:06:00.0
+2019-08-26 09:09:44.937644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 2 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:09:00.0
+2019-08-26 09:09:44.937878: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938031: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938174: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938313: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938451: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938588: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/include:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/extras/CUPTI/lib64
+2019-08-26 09:09:44.938637: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-26 09:09:44.938656: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1663] Cannot dlopen some GPU libraries. Skipping registering GPU devices...
+2019-08-26 09:09:44.938855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-26 09:09:44.938877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 2 
+2019-08-26 09:09:44.938892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y Y 
+2019-08-26 09:09:44.938905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N Y 
+2019-08-26 09:09:44.938918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 2:   Y Y N 
