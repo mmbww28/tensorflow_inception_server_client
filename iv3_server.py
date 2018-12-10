@@ -1,4 +1,4 @@
 import inception_server
 
-inception_server.start(4100)
+inception_server.start(2222)
 
