@@ -1,3 +1,4 @@
+zerorpc
 sanic
 image
 pillow-simd
