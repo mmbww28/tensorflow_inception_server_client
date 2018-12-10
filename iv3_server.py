@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0, './so')
-import zs
+import z_server 
 
-zs.start(2223)
+z_server.start(2223)
 
